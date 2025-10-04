@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My fav website</h1>
+    <p>my are there are few of my fav websites  </p> 
+    <hr>
+    <h2>My intrests</h2>
+    <ol type="i">
+     <li><a href="https://www.google.com/" target="_blank">google</a></li>
+    <li><a href="https://www.youtube.com/" target="_blank"> youtube </a></li>
+    </ol>
+
+
+</body>
+</html>
