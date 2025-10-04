@@ -1,0 +1,38 @@
+QUESTION-1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Favorite Websites</h1>
+    <ul>
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a href="https://github.com" target="_blank">GitHub</a></li>
+    </ul>
+
+    
+</body>
+</html>
+
+
+
+QUESTION-2
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Gallery with Descriptions</title>
+</head>
+<body>
+    <h2>My Image Gallery</h2>
+<img src="" alt="image" title="random image" width="20px" height="10pxs">
+  <p> In this image </p>
+ <img src="https://placekitten.com/250/180" alt="A playful orange kitten" title=" cute image">
+    <p>Here's a playful orange kitten.</p>
+</body>
+</html>
+
+
+
