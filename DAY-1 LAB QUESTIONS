@@ -1,3 +1,5 @@
+QUESTION NO-1
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,3 +20,30 @@
 
 </body>
 </html>
+
+
+QUESTION-2
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MY SHORT BIO</title>
+</head>
+<body>
+    <h1> PRIYANSHU PANDEY</h1>
+    <p>Hey everyone, My name is PRIYANSHU PANDEY <br>
+my hobbies are singing , playing football, basketball and  girlfrimuch more <br> <hr>
+I live in gurugram <br>
+I study in KR MANGALAM UNIVERSITY
+ </p>
+ <h2>MY INTRESTS</h2>
+ <p> i like getting challanges and i like coding and love to know about more new technologies </p>
+    
+</body>
+</html>
+
+
+
+
