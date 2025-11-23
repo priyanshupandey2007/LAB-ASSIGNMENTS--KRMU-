@@ -1,147 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Priyanshu Pandey Portfolio</title>
-    <style>
+# Browser Console JavaScript Quiz
 
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.8;
-      margin: 0;
-      padding: 0;
-    }
-    header, nav, section, footer {
-      padding: 24px;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 18px;
-      padding: 0;
-    }
-    nav a {
-      text-decoration: none;
-      color: blue;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }  table {
-      border-collapse: collapse;
-      width: 100%;
-      max-width: 700px;
-    }
-    table, th, td {
-      border: 5px solid paleturquoise;
-      padding: 10px;
-      text-align: left;
-    }
-    .hero {
-      background-color: lavenderblush;
-      text-align: center;
-      padding: 60px 20px;
-    }
-    footer {
-      text-align: center;
-      background-color: hotpink;
-      margin-top: 40px;
-    }
-    h1 {
-  border-top-style: solid;
-  border-top-color: coral;
-}
+This project is a simple JavaScript quiz game that runs entirely within the web browser's developer console. It demonstrates core JavaScript concepts including arrays, loops, conditionals, functions, and user input/output handling.
 
-div {
-  border-style: solid;
-  border-top-color: coral;
-}
-  </style>
-</head>
-<body>
-     <h1 style="color: blue;">PRIYANSHU PANDEY</h1>
+## Features
+- **Interactive:** Uses `prompt()` to ask questions and `alert()` to provide feedback.
+- **Case Insensitive:** Inputs are processed using `.toLowerCase()` and `.trim()` so "Paris", "paris ", and "PARIS" are all accepted as correct.
+- **Score Tracking:** Calculates and displays the user's score at the end of the game.
+- **Pure JavaScript:** No HTML or DOM manipulation required.
 
-    <header>
-        <nav>
-            
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+## How to Run
+1. Open any web browser (Chrome, Firefox, Edge, etc.).
+2. Open the **Developer Console**:
+   - **Windows/Linux:** Press `F12` or `Ctrl + Shift + J`.
+   - **Mac:** Press `Cmd + Option + J`.
+3. Copy the code from `quiz.js`.
+4. Paste the code into the console area.
+5. Press `Enter`.
+6. The quiz will start immediately.
 
-    <main id="main">
-        <section id="about">
-            <h2>Welcome to My Portfolio</h2>
-            <p>Hello! I am a web development student. This is my personal portfolio website.</p>
-
-            <h2>About Me</h2>
-            <img src="./portfolio.jpg" alt="Priyanshu's profile picture" height="200px" width="200px">
-            <p>I am passionate about learning web development and building creative projects.</p>
-        </section>
-
-        <section id="projects">
-            <h2>My Projects</h2>
-            <ul>
-                <li>Portfolio Website: A personal one-page website to showcase your bio, skills, and contact details.</li>
-                <li>Medium Clone: A simple blog layout that looks like Medium, built only with HTML and CSS.</li>
-                <li>User Form: A form webpage with fields like name, email, and message for practicing form handling.</li>
-            </ul>
-        </section>
-    </main>
-     <section id="Skills">
-         <h2>Technical Skills</h2>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Skill</th>
-                    <th>Level</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>HTML</td>
-                    <td>Knows basic of it</td>
-                </tr>
-                <tr>
-                    <td>CSS</td>
-                    <td>Learning</td>
-                </tr>
-                <tr>
-                    <td>JavaScript</td>
-                    <td>Learning</td>
-                </tr>
-                <tr>
-                    <td>Java</td>
-                    <td>Know very well</td>
-                </tr>
-            </tbody>
-        </table>
-
-     </section>
-
-   <section id="contact">
-       
-        <h2>Contact Me</h2>
-       
-            <label for="name">Name:</label>
-            <input type="text" id="name" placeholder="Enter your name" required><br><br>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="Enter your email" required><br><br>
-
-            <label for="message">Message:</label><br>
-            <textarea id="message" placeholder="Enter your message" required></textarea><br><br>
-
-            <button type="submit">Send</button>
-        </form>
-        </section>
- 
-     <footer>
-    <p>&copy; 2025 . All Rights persued.</p>
-     <a href="#main">Back to the top</a>
-  </footer>
-</body>
-</html>
+## Learning Outcomes
+This assignment demonstrates mastery of:
+- **Arrays & Objects:** Storing structured data.
+- **Loops:** Iterating through question sets.
+- **Functions:** Encapsulating game logic.
+- **Input Validation:** Sanitizing user text input.
